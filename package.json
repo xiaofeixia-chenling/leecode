@@ -1,0 +1,15 @@
+{
+  "name": "leecode",
+  "version": "1.0.0",
+  "description": "test by C.L",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "chenling",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-flow": "^7.0.0",
+    "jest": "^24.8.0"
+  }
+}
