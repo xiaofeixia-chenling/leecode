@@ -1,7 +1,7 @@
 function poneSortFun(str){
   let map = ['', 1, 'abc','def','jhi','jkl','mno','pqrs','tuv','wxyz']
   let num = str.split('')
-  
+
   let code = []
   num.forEach(element => {
     map[element] && code.push(map[element])
@@ -29,4 +29,4 @@ function poneSortFun(str){
 }
 module.exports = poneSortFun;
 
-console.log(poneSortFun('234'))
+//console.log(poneSortFun('234'))
